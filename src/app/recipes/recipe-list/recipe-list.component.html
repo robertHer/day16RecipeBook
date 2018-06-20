@@ -1,3 +1,13 @@
-<p>
-  recipe-list works!
-</p>
+<div class="row">
+    <div class="col-xs-12">
+        <button class="btn">New Recipe</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <recipe-items *ngFor="let recipeEl of recipes"
+                    [recipe]="recipeEl" 
+                    (recipeWasSelected)="onRecipeSelected($event)"></recipe-items>
+    </div>
+</div>

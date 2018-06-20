@@ -1,0 +1,22 @@
+button.btn {
+    margin: 15px 15px;
+    background-color: #4d98dd;
+    color: white;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #1293f2;
+    
+    color: white;
+    font-weight: bolder;
+    
+}
+.col-xs-12{
+    margin-bottom: 20px;
+}
+.row{
+    /* background-color: black; */
+    height: 30vh;
+    width: 30vw;
+}
